@@ -14,7 +14,7 @@ app.use(express.json());
 app.use('/auth', auth);
 app.use( '/profile',profile )
 app.use( '/feed',feed )
-const CONNECTION_URL = 'mongodb+srv://khushalsindhav26:iitj@iit.axzzmf1.mongodb.net/iit';
+const CONNECTION_URL = ''; //Enter your own mongoDB database connection url :)
  
 mongoose.connect(CONNECTION_URL, { 
   useNewUrlParser: true,
