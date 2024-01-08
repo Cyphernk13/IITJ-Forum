@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.hello{
+    background-color: #2b2f31;
+    color: white;
+}
+
+/* ------------LOGIN PAGE CSS-------------------------- */
+.login-page{
+    font-family: 'Poppins', sans-serif;
+}
+.login-page label{
+    font-size: 14px;
+}
+.login-btn {
+    border: none;
+    background-image: linear-gradient(to left, #07d4df, #43a1e7, #7e6eee, #b93af6, #f804ff);
+    background-size: 150% auto;
+    transition: background-position 0.4s linear;
+    background-position: 0% center;
+}
+
+.login-btn:hover {
+    background-position: 100% center;
+}
+
+.forgot-pass:hover{
+    color: #a64bf4;
+}
+
+/* ----------------INPUT PAGE CSS---------------------- */
+.form-floating{
+    color: gray;
+}
+
+
+
+/* ----------------SIGNUP PAGE CSS---------------------- */
+.signup-page{
+    font-family: 'Poppins', sans-serif;
+}
+.signup-page label{
+    font-size: 14px;
+}
+.sign-up-btn:hover{
+color: #a64bf4;
+
+}
+.sign-up-link{
+    text-decoration: none;
+}
+  
+  .signup-btn {
+    border: none;
+    background-image: linear-gradient(to left, #07d4df, #43a1e7, #7e6eee, #b93af6, #f804ff);
+    background-size: 150% auto;
+    transition: background-position 0.4s linear;
+    background-position: 0% center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .signup-btn:hover {
+    background-position: 100% center;
+  }
+
+.signup-page{
+    /* background: url(./../../img/Login/bg-login.jpg) no-repeat center center fixed;  */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.signup-form{
+    box-shadow: 0 5px 30px rgb(112, 79, 126);
+}
+
+
+/*----------------CHOICE PAGE CSS------------*/
+/* Choice.css */
+
+.image-container {
+    overflow: hidden;
+}
+
+.image {
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.image-container:hover .image {
+    opacity: 0.9;
+}
+/* ------------------Forgot PWD CSS----------------------- */
+
+.otp-btn{
+    border: none;
+    background-image: linear-gradient(to left, #07d4df, #43a1e7, #7e6eee, #b93af6, #f804ff);
+    background-size: 150% auto;
+    transition: background-position 0.4s linear;
+    background-position: 0% center;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.otp-btn:hover{
+    background-position: 100% center;
+}
+
+/* ------------------Profile CSS----------------------- */
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+    justify-content: space-between;
+  }
+.profile-page{
+    /* background: url(./../../img/Login/bg-login.jpg) no-repeat center center fixed;  */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+.gradient-custom {
+    background: rgb(38, 37, 37);
+    /* box-shadow: 0 5px 30px rgb(112, 79, 126); */
+
+}
+.copyright-link{
+    text-decoration: none;
+}
+.save-btn{
+    border: none;
+    background-image: linear-gradient(to left, #07d4df, #43a1e7, #7e6eee, #b93af6, #f804ff);
+    background-size: 175% auto;
+    transition: background-position 0.4s linear;
+    background-position: 0% center;
+    width: 30%;
+    margin: auto;
+    padding: auto;
+}
+.save-btn:hover{
+    background-position: 100% center;
+}
+

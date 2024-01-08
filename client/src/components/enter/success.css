@@ -1,0 +1,22 @@
+.checkmark {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/* success.css */
+
+.dark-mode {
+    background-color: black;
+  }
+  
+  .auth-success-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #68e534; /* Green color */
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  
