@@ -36,13 +36,13 @@ router.post( '/otp' , async( req,res ) => {
     var transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'iitjforum@gmail.com',
-        pass: 'lezz pduz vsbf hqkg'
+        user: '',
+        pass: '' // Enter your own auth app gmail & password, removed mine for security reasons :)
       }
     });
     
     var mailOptions = {
-      from: 'iitjforum@gmail.com',
+      from: '', // Enter your own auth app gmail, removed mine for security reasons :)
       to: `${email}`,
       subject: 'OTP for IITJ Forum',
       text: `your OTP is ${otp}`
